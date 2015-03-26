@@ -3,6 +3,7 @@ logs
 *.log
 nsq/log
 nsq/data
+*.dat
 
 # Runtime data
 pids
