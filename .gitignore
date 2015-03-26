@@ -1,6 +1,8 @@
 # Logs
 logs
 *.log
+nsq/log
+nsq/data
 
 # Runtime data
 pids
