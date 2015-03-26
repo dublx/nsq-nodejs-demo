@@ -1,0 +1,26 @@
+{
+  "name": "nsq-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Demo of Nsq.io in Node.js and Shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dublx/nsq-nodejs-demo.git"
+  },
+  "keywords": [
+    "nsq.io",
+    "demo"
+  ],
+  "author": "Luis Faustino (luis.faustino@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dublx/nsq-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/dublx/nsq-nodejs-demo",
+  "dependencies": {
+    "nsqjs": "^0.7.6"
+  }
+}
