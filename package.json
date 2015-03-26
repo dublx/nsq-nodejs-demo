@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/dublx/nsq-nodejs-demo",
   "dependencies": {
+    "commander": "^2.7.1",
+    "express": "^4.12.3",
     "nsqjs": "^0.7.6"
   }
 }
