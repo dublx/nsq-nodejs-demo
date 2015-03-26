@@ -32,6 +32,3 @@ node sub.js -t node -c "node-sub" -l "127.0.0.1:4161"
 node pub.js -t node -h 127.0.0.1 -p 4150
 
 node index.js -w 3000 -f topic1 -t topic2 -h 127.0.0.1 -p 4150
-
-
-curl -XPOST 127.0.0.1:3000/topic1 -d "123" --header "Content-Type:text/plain"
