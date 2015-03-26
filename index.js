@@ -3,7 +3,7 @@ var nsq = require('nsqjs');
 var program = require('commander');
 var app = express();
 var bodyParser = require('body-parser');
-app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.text({type:"*/*"}));
 
 program
   .option('-w, --httpport [value]', 'Express port', '3000')
